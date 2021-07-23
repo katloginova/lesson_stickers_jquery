@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    height: 100%;
+    background-image: linear-gradient(rgba(252, 252, 80, 0.849) 60%, rgb(74, 198, 247));
+}
+
+.stickers {
+
+
+    &__head {
+        line-height: 50px;
+        background-color: #565;
+        padding: 0 100px;
+        text-align: right;
+    }
+
+    &__content {
+        display: flex;
+        flex-flow: row wrap;
+        padding: 0 50px;
+    }
+
+
+}
+
+.sticker {
+    position: relative;
+    min-height: 200px;
+    width: 220px;
+    background-color: rgb(255, 115, 0);
+    margin: 20px;
+    padding: 25px;
+    border-radius: 5px;
+    border-top-left-radius: 25px;
+    &__description{
+        resize: none;
+        overflow: hidden;
+        background: transparent;
+        border: none;
+        height: 100%;
+        width: 100%;
+    }
+
+    &__close {
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        text-align: center;
+        font-weight: 700;
+        color: red;
+        background-color: rgb(255, 208, 0);
+        position: absolute;
+        top: 3px;
+        right: 3px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+}
+
+.btn{
+    display: inline-block;
+    line-height: 30px;
+    padding: 0 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(247, 90, 33);
+    border-radius: 5px;
+    border: 2px rgb(51, 61, 51) solid;
+}

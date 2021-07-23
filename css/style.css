@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  height: 100%;
+  background-image: linear-gradient(rgba(252, 252, 80, 0.849) 60%, #4ac6f7);
+}
+
+.stickers__head {
+  line-height: 50px;
+  background-color: #565;
+  padding: 0 100px;
+  text-align: right;
+}
+.stickers__content {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0 50px;
+}
+
+.sticker {
+  position: relative;
+  min-height: 200px;
+  width: 220px;
+  background-color: #ff7300;
+  margin: 20px;
+  padding: 25px;
+  border-radius: 5px;
+  border-top-left-radius: 25px;
+}
+.sticker__description {
+  resize: none;
+  overflow: hidden;
+  background: transparent;
+  border: none;
+  height: 100%;
+  width: 100%;
+}
+.sticker__close {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  font-weight: 700;
+  color: red;
+  background-color: #ffd000;
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.btn {
+  display: inline-block;
+  line-height: 30px;
+  padding: 0 15px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #f75a21;
+  border-radius: 5px;
+  border: 2px #333d33 solid;
+}
+
+/*# sourceMappingURL=style.css.map */
